@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     
-
     <div class="image-outer">
       <div class="image-inner">
         <Hero/>
@@ -9,9 +8,8 @@
 
       <div class="didascalia">
         <img alt="Vue logo" src="./assets/logo.png">
-      <Title/>
-    </div>
-
+        <Title/>
+      </div>
 
     </div>
     
@@ -32,6 +30,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 *{
   margin: 0;
   padding: 0;
@@ -73,7 +72,5 @@ export default {
 .didascalia>img{
   width:100px
 }
-
-
 
 </style>
